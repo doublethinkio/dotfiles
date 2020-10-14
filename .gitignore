@@ -1,0 +1,51 @@
+# Blacklist files/folders in same directory as the .gitignore file
+/*
+
+# Whitelist some files
+!.gitignore
+!README.md
+!.xinitrc
+!.Xmodmap
+!.yarnrn
+!.npmrc
+!.zshrc
+!.pkglist.txt
+!.vconsole.conf
+!vscode.custom.css
+!.vimrc
+!.bashrc
+!.bash_profile
+
+# Ignore all files named .DS_Store or ending with .log
+**/.DS_Store
+**.log
+
+# Whitelist folder/a/b1/ and folder/a/b2/
+# trailing"/" is optional for folders, may match file though.
+#"/" is NOT optional when followed by a *
+!.config/
+.config/*
+!.config/picom.conf
+!.config/keys.conf
+!.config/alacritty
+!.config/bspwm
+!.config/fcitx5
+!.config/flameshot
+!.config/neofetch
+!.config/polybar
+!.config/ranger
+!.config/sxhkd
+!.config/zsh
+
+!.config/nvim
+.config/nvim/tmp/*
+.config/nvim/autoload
+.config/nvim/plugged
+.config/nvim/.netrwhist
+
+!.wallpaper/
+.wallpaper/*
+!.wallpaper/wallpaper.sh
+
+!script/
+script/.wallpaper

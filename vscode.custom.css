@@ -1,0 +1,11 @@
+.mtk11 {
+  font-family: "Operator Mono Lig", monospace;
+  font-style: italic;
+}
+
+.visible.scrollbar.vertical {
+  width: 1px;
+}
+.visible.scrollbar.vertical > .slider {
+  width: 1px;
+}
