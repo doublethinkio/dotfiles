@@ -9,8 +9,8 @@
 !.yarnrn
 !.npmrc
 !.zshrc
-!.pkglist.txt
-!.vconsole.conf
+!pkglist.txt
+!vconsole.conf
 !vscode.custom.css
 !.vimrc
 !.bashrc
