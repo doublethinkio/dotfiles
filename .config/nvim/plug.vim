@@ -2,6 +2,7 @@
 " === Auto load for first time uses
 " === https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
 " ===
+
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
 	silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
 				\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -10,12 +11,12 @@ endif
 
 " Initialize plugin system
 call plug#begin('~/.config/nvim/plugged')
-
 Plug 'chriskempson/base16-vim'
 Plug 'joshdick/onedark.vim'
 Plug 'dracula/vim'
 Plug 'squarefrog/tomorrow-night.vim'
 Plug 'vim-airline/vim-airline'
+Plug 'doublethinkio/antovim'
 Plug 'tpope/vim-surround' " type ysiw' to wrap the word with '' or type cs'` to change 'word' to `word`
 " HTML, CSS, JavaScript, Typescript, PHP, JSON, etc.
 Plug 'yuezk/vim-js', { 'for': ['javascript'] }
