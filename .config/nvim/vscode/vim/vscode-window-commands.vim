@@ -47,31 +47,31 @@ AlterCommand new New
 AlterCommand vne[w] Vnew
 AlterCommand on[ly] Only
 
-nnoremap sk <Cmd>call <SID>split('h')<CR>
-xnoremap sk <Cmd>call <SID>split('h')<CR>
+" nnoremap sk <Cmd>call <SID>split('h')<CR>
+" xnoremap sk <Cmd>call <SID>split('h')<CR>
 
-nnoremap sl <Cmd>call <SID>split('v')<CR>
-xnoremap sl <Cmd>call <SID>split('v')<CR>
+" nnoremap sl <Cmd>call <SID>split('v')<CR>
+" xnoremap sl <Cmd>call <SID>split('v')<CR>
 
-nnoremap si <Cmd>call <SID>splitR('h')<CR>
-xnoremap si <Cmd>call <SID>splitR('h')<CR>
+" nnoremap si <Cmd>call <SID>splitR('h')<CR>
+" xnoremap si <Cmd>call <SID>splitR('h')<CR>
 
-nnoremap sj <Cmd>call <SID>splitR('v')<CR>
-xnoremap sj <Cmd>call <SID>splitR('v')<CR>
+" nnoremap sj <Cmd>call <SID>splitR('v')<CR>
+" xnoremap sj <Cmd>call <SID>splitR('v')<CR>
 
-nnoremap su <Cmd>call <SID>splitNew('v', '__vscode_new__')<CR>
-xnoremap su <Cmd>call <SID>splitNew('v', '__vscode_new__')<CR>
+" nnoremap su <Cmd>call <SID>splitNew('v', '__vscode_new__')<CR>
+" xnoremap su <Cmd>call <SID>splitNew('v', '__vscode_new__')<CR>
 
-nnoremap tu <Cmd>call VSCodeNotify('workbench.action.files.newUntitledFile')<CR>
-xnoremap tu <Cmd>call VSCodeNotify('workbench.action.files.newUntitledFile')<CR>
+" nnoremap tu <Cmd>call VSCodeNotify('workbench.action.files.newUntitledFile')<CR>
+" xnoremap tu <Cmd>call VSCodeNotify('workbench.action.files.newUntitledFile')<CR>
 
 nnoremap <C-w>q <Cmd>call VSCodeNotify('workbench.action.closeActiveEditor')<CR>
 xnoremap <C-w>q <Cmd>call VSCodeNotify('workbench.action.closeActiveEditor')<CR>
 nnoremap <C-w>c <Cmd>call VSCodeNotify('workbench.action.closeActiveEditor')<CR>
 xnoremap <C-w>c <Cmd>call VSCodeNotify('workbench.action.closeActiveEditor')<CR>
 
-nnoremap to <Cmd>call VSCodeNotify('workbench.action.joinAllGroups')<CR>
-xnoremap to <Cmd>call VSCodeNotify('workbench.action.joinAllGroups')<CR>
+" nnoremap to <Cmd>call VSCodeNotify('workbench.action.joinAllGroups')<CR>
+" xnoremap to <Cmd>call VSCodeNotify('workbench.action.joinAllGroups')<CR>
 
 " nnoremap <LEADER>k <Cmd>call VSCodeNotify('workbench.action.focusBelowGroup')<CR>
 " xnoremap <LEADER>k <Cmd>call VSCodeNotify('workbench.action.focusBelowGroup')<CR>
@@ -116,18 +116,18 @@ xnoremap <C-w>- <Cmd>call <SID>manageEditorSize(v:count, 'decrease')<CR>
 
 nnoremap <C-w>_ <Cmd>call VSCodeNotify('workbench.action.toggleEditorWidths')<CR>
 
-nnoremap sh <Cmd>call VSCodeNotify('workbench.action.toggleEditorGroupLayout')<CR>
-nnoremap sv <Cmd>call VSCodeNotify('workbench.action.toggleEditorGroupLayout')<CR>
+" nnoremap sh <Cmd>call VSCodeNotify('workbench.action.toggleEditorGroupLayout')<CR>
+" nnoremap sv <Cmd>call VSCodeNotify('workbench.action.toggleEditorGroupLayout')<CR>
 
 " Better Navigation
-nnoremap <silent> <LEADER>k :call VSCodeNotify('workbench.action.navigateDown')<CR>
-xnoremap <silent> <LEADER>k :call VSCodeNotify('workbench.action.navigateDown')<CR>
-nnoremap <silent> <LEADER>i :call VSCodeNotify('workbench.action.navigateUp')<CR>
-xnoremap <silent> <LEADER>i :call VSCodeNotify('workbench.action.navigateUp')<CR>
-nnoremap <silent> <LEADER>j :call VSCodeNotify('workbench.action.navigateLeft')<CR>
-xnoremap <silent> <LEADER>j :call VSCodeNotify('workbench.action.navigateLeft')<CR>
-nnoremap <silent> <LEADER>l :call VSCodeNotify('workbench.action.navigateRight')<CR>
-xnoremap <silent> <LEADER>l :call VSCodeNotify('workbench.action.navigateRight')<CR>
+" nnoremap <silent> <LEADER>k :call VSCodeNotify('workbench.action.navigateDown')<CR>
+" xnoremap <silent> <LEADER>k :call VSCodeNotify('workbench.action.navigateDown')<CR>
+" nnoremap <silent> <LEADER>i :call VSCodeNotify('workbench.action.navigateUp')<CR>
+" xnoremap <silent> <LEADER>i :call VSCodeNotify('workbench.action.navigateUp')<CR>
+" nnoremap <silent> <LEADER>j :call VSCodeNotify('workbench.action.navigateLeft')<CR>
+" xnoremap <silent> <LEADER>j :call VSCodeNotify('workbench.action.navigateLeft')<CR>
+" nnoremap <silent> <LEADER>l :call VSCodeNotify('workbench.action.navigateRight')<CR>
+" xnoremap <silent> <LEADER>l :call VSCodeNotify('workbench.action.navigateRight')<CR>
 
 nnoremap <C-w>H <Cmd>echoerr 'Not supported yet'<CR>
 xnoremap <C-w>H <Cmd>echoerr 'Not supported yet'<CR>

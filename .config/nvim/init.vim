@@ -9,12 +9,14 @@ if !exists('g:vscode')
   source ~/.config/nvim/map.vim
   source ~/.config/nvim/set.vim
   source ~/.config/nvim/theme.vim
+
+  " https://github.com/mhinz/vim-galore#restore-cursor-position-when-opening-file
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 else
   source ~/.config/nvim/vscode/map.vim
   source ~/.config/nvim/vscode/set.vim
+  source ~/.config/nvim/vscode/plug.vim
 endif
-"https://github.com/mhinz/vim-galore#restore-cursor-position-when-opening-file
-au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 " ===
 " === Necessary Commands to Execute

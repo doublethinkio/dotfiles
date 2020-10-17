@@ -47,5 +47,5 @@ export GOROOT_BOOTSTRAP=$GOROOT
 # https://github.com/ChristianChiarulli/nvim#install-neovim-remote
 export PATH=$HOME/.local/bin:$PATH
 
-
-
+# npm -g install yarn
+export PATH="$PATH:$(yarn global bin)"

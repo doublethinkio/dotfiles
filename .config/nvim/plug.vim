@@ -43,7 +43,7 @@ call plug#end()
 let coc_frondend_extensions = ['coc-css', 'coc-html', 'coc-tsserver', 'coc-eslint', 'coc-stylelint', 'coc-prettier']
 let coc_common_extensions = ['coc-vimlsp', 'coc-json', 'coc-actions', 'coc-yaml', 'coc-explorer', 'coc-snippets', 'coc-pairs', 'coc-yank', 'coc-lists']
 " https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#install-extensions
-let g:coc_global_extensions = coc_frondend_extensions + coc_common_extensions 
+let g:coc_global_extensions = coc_frondend_extensions + coc_common_extensions
 
 " https://github.com/neoclide/coc.nvim#example-vim-configuration
 " Use tab for trigger completion with characters ahead and navigate.
@@ -69,7 +69,7 @@ inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 " Use `[g` and `]g` to navigate diagnostics
-" Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.														
+" Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
 nmap <silent> <LEADER>- <Plug>(coc-diagnostic-prev)
 nmap <silent> <LEADER>= <Plug>(coc-diagnostic-next)
 

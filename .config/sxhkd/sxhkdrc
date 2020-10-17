@@ -1,10 +1,9 @@
 #
 # wm independent hotkeys
 #
-
 # terminal emulator
 super + Return
-	alacritty
+	alacritty
 
 # program launcher
 # super + @space
