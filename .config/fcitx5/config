@@ -1,26 +1,20 @@
 [Hotkey]
 # 反复按切换键时进行轮换
 EnumerateWithTriggerKeys=True
+# 向前切换输入法
+EnumerateForwardKeys=
+# 向后切换输入法
+EnumerateBackwardKeys=
+# 向前切换输入分组
+EnumerateGroupForwardKeys=
+# 向后切换输入法分组
+EnumerateGroupBackwardKeys=
 
 [Hotkey/TriggerKeys]
 0=Super+space
-1=Zenkaku_Hankaku
-2=Hangul
 
 [Hotkey/AltTriggerKeys]
 0=Shift_L
-
-[Hotkey/EnumerateForwardKeys]
-0=Control+Shift_L
-
-[Hotkey/EnumerateBackwardKeys]
-0=Control+Shift_R
-
-[Hotkey/EnumerateGroupForwardKeys]
-0=Super+space
-
-[Hotkey/EnumerateGroupBackwardKeys]
-0=Shift+Super+space
 
 [Hotkey/ActivateKeys]
 0=Hangul_Hanja
@@ -29,10 +23,10 @@ EnumerateWithTriggerKeys=True
 0=Hangul_Romaja
 
 [Hotkey/PrevPage]
-0=Up
+0=minus
 
 [Hotkey/NextPage]
-0=Down
+0=equal
 
 [Hotkey/PrevCandidate]
 0=Shift+Tab

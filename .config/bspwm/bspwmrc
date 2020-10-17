@@ -15,6 +15,7 @@ bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a copyq state=floating focus=on
 bspc rule -a albert state=floating focus=on
 bspc rule -a flameshot state=floating focus=on
+bspc rule -a fcitx5-config-qt state=floating focus=on
 bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a netease-cloud-music state=floating focus=on

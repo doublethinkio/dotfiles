@@ -87,6 +87,7 @@ source $ZSH/oh-my-zsh.sh
 [ -s "$HOME/.config/zsh/alias.zsh" ] && \. "$HOME/.config/zsh/alias.zsh"
 [ -s "$HOME/.config/zsh/env.zsh" ] && \. "$HOME/.config/zsh/env.zsh"
 [ -s "$HOME/.config/zsh/zplug.zsh" ] && \. "$HOME/.config/zsh/zplug.zsh"
+[ -s "$HOME/.config/zsh/key.zsh" ] && \. "$HOME/.config/zsh/key.zsh"
 
 # https://wiki.archlinux.org/index.php/Fzf
 source /usr/share/fzf/key-bindings.zsh

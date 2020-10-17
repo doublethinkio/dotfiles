@@ -1,9 +1,11 @@
 #
 # wm independent hotkeys
 #
+shift + BackSpace
+	xdotool key Delete
 # terminal emulator
 super + Return
-	alacritty
+	alacritty
 
 # program launcher
 # super + @space

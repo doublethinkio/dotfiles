@@ -4,19 +4,13 @@ Name=Default
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=pinyin
+DefaultIM=rime
 
 [Groups/0/Items/0]
 # Name
-Name=keyboard-us
+Name=rime
 # Layout
 Layout=
-
-[Groups/0/Items/1]
-# Name
-Name=pinyin
-# Layout
-Layout=us
 
 [GroupOrder]
 0=Default
