@@ -1,10 +1,10 @@
 [Groups/0]
 # Group Name
-Name=Default
+Name=chinese
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=rime
+DefaultIM=keyboard-us
 
 [Groups/0/Items/0]
 # Name
@@ -12,6 +12,12 @@ Name=rime
 # Layout
 Layout=
 
+[Groups/0/Items/1]
+# Name
+Name=keyboard-us
+# Layout
+Layout=
+
 [GroupOrder]
-0=Default
+0=chinese
 

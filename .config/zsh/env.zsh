@@ -8,6 +8,8 @@ export PATH=$PATH:$LOCALBIN
 # https://wiki.archlinux.org/index.php/Man_page#man_-H
 export BROWSER=/usr/bin/google-chrome-stable
 
+# history 命令查看历史输入命令的时间展示格式
+HIST_STAMPS="yyyy-mm-dd"
 # default editor
 # yay -S nvim
 export EDITOR=nvim
@@ -27,7 +29,7 @@ export RANGER_LOAD_DEFAULT_RC=false
 
 # yay -S fzf  https://github.com/junegunn/fzf#usage
 # https://github.com/theniceboy/.config/blob/master/zsh/fzf.zsh
-export FZF_DEFAULT_COMMAND='fd'
+export FZF_DEFAULT_COMMAND='fd -H'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPTS="--ansi --bind=ctrl-t:top,change:top --bind ctrl-k:down,ctrl-i:up"
 export FZF_COMPLETION_TRIGGER='\'

@@ -8,6 +8,7 @@ alias cman='man -M /usr/share/man/zh_CN'
 alias tman='man -M /usr/share/man/zh_TW'
 # yay -S ranger
 alias ra='ranger'
+alias sra='sudo -E ranger'
 # yay -S neofetch
 alias n='neofetch'
 # yay -S openssh
@@ -15,7 +16,9 @@ alias yhx="ssh yhx@192.168.0.106"
 # yay -S thefuck
 eval $(thefuck --alias)
 
+alias l='ls -la'
 
+alias sudo='sudo -E'
 
 
 

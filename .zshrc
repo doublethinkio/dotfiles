@@ -90,6 +90,6 @@ source $ZSH/oh-my-zsh.sh
 [ -s "$HOME/.config/zsh/key.zsh" ] && \. "$HOME/.config/zsh/key.zsh"
 
 # https://wiki.archlinux.org/index.php/Fzf
-source /usr/share/fzf/key-bindings.zsh
+# source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
 source /usr/share/nvm/init-nvm.sh

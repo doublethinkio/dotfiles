@@ -5,11 +5,11 @@ shift + BackSpace
 	xdotool key Delete
 # terminal emulator
 super + Return
-	alacritty
+	st
 
 # program launcher
-# super + @space
-#	dmenu_run
+alt + space
+	dmenu_run
 F1
 	flameshot gui
 

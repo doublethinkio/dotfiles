@@ -3,5 +3,6 @@
 # yay -S picom-git
 picom --experimental-backends -b
 fcitx5 &
-albert &
+# albert &
+unclutter &
 alacritty &
