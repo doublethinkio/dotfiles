@@ -47,5 +47,5 @@
 .wallpaper/*
 !.wallpaper/wallpaper.sh
 
-!script/
-script/.wallpaper
+!scripts/
+scripts/.wallpaper

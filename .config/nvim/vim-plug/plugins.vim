@@ -10,6 +10,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Surround
   Plug 'tpope/vim-surround'
+  " cycling through antonyms/words
+  Plug 'doublethinkio/antovim'
     " Change dates fast
     " Plug 'tpope/vim-speeddating'
     " Convert binary, hex, etc..

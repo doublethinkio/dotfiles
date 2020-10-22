@@ -3,8 +3,8 @@
 TriggerKeys=
 # 反复按切换键时进行轮换
 EnumerateWithTriggerKeys=True
-# 向前切换输入法
-EnumerateForwardKeys=
+# 临时在当前和第一个输入法之间切换
+AltTriggerKeys=
 # 向后切换输入法
 EnumerateBackwardKeys=
 # 向前切换输入分组
@@ -12,8 +12,8 @@ EnumerateGroupForwardKeys=
 # 向后切换输入法分组
 EnumerateGroupBackwardKeys=
 
-[Hotkey/AltTriggerKeys]
-0=Control+Shift+Shift_L
+[Hotkey/EnumerateForwardKeys]
+0=Control+BackSpace
 
 [Hotkey/ActivateKeys]
 0=Hangul_Hanja

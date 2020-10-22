@@ -1,4 +1,4 @@
-
+hi Normal ctermfg=252 ctermbg=none
 hi Comment cterm=italic
 
 syntax on
