@@ -156,3 +156,7 @@ endif
 " Better nav for omnicomplete
 inoremap <expr> <c-k> ("\<C-n>")
 inoremap <expr> <c-i> ("\<C-p>")
+
+" popup
+nmap <Leader>t <Plug>(coc-translator-p)
+vmap <Leader>t <Plug>(coc-translator-pv)

@@ -12,6 +12,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-surround'
   " cycling through antonyms/words
   Plug 'doublethinkio/antovim'
+  " A simple plugin for opening urls in browser gB
+  Plug 'dhruvasagar/vim-open-url'
     " Change dates fast
     " Plug 'tpope/vim-speeddating'
     " Convert binary, hex, etc..

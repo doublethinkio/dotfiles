@@ -25,6 +25,7 @@
     \ 'coc-yank',
     \ 'coc-json',
     \ 'coc-marketplace',
+    \ 'coc-translator'
     \ ]
     " \ 'coc-tabnine',
     " \ 'coc-highlight',
