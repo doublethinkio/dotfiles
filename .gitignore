@@ -34,9 +34,13 @@
 !.config/flameshot
 !.config/neofetch
 !.config/polybar
-!.config/ranger
 !.config/sxhkd
 !.config/zsh
+
+!.config/ranger
+.config/ranger/__pycache__/*
+.config/ranger/plugins/__pycache__/*
+.config/ranger/plugins/ranger_devicons/__pycache__/*
 
 !.config/nvim
 .config/nvim/tmp/*
