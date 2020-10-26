@@ -1,3 +1,4 @@
+
 # Blacklist files/folders in same directory as the .gitignore file
 /*
 
@@ -43,9 +44,14 @@
 .config/nvim/plugged
 .config/nvim/.netrwhist
 
-!.wallpaper/
-.wallpaper/*
 !.wallpaper/wallpaper.sh
 
 !scripts/
 scripts/.wallpaper
+
+!.local/
+.local/*
+!.local/share
+.local/share/*
+!.local/share/fcitx5/
+!.local/share/fonts/

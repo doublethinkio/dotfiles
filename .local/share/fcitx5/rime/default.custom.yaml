@@ -1,0 +1,8 @@
+patch:
+  "menu/page_size": 8
+  schema_list:
+    - schema: clover
+  key_binder:         #按键绑定
+  bindings:
+    - { accept: minus, send: Page_Up, when: paging} #减号向前翻页
+    - { accept: equal, send: Page_Down, when: has_menu} #等于号向后翻页

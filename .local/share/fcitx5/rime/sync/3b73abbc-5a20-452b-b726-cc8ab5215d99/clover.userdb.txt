@@ -1,0 +1,53 @@
+# Rime user dictionary
+#@/db_name	clover
+#@/db_type	userdb
+#@/rime_version	1.6.1
+#@/tick	63
+#@/user_id	3b73abbc-5a20-452b-b726-cc8ab5215d99
+a si da 	阿思达	c=1 d=0.960789 t=63
+a si dun 	阿斯顿	c=1 d=0.869358 t=63
+bo bao 	播报	c=0 d=0.0891366 t=63
+chuan 	船	c=4 d=3.78146 t=63
+da 	打	c=0 d=0.162893 t=63
+da sa 	搭撒	c=1 d=0.927743 t=63
+da shan ding 	大山顶	c=1 d=0.904837 t=63
+da she dou 	大蛇兜	c=1 d=1 t=63
+da sheng 	大胜	c=0 d=0.0918512 t=63
+da sheng de 	大声的	c=1 d=0.955997 t=63
+da sheng dian 	大胜点	c=1 d=0.923116 t=63
+da shi 	大使	c=0 d=0.0869358 t=63
+da shi da 	大使打	c=1 d=0.873716 t=63
+da shi dai 	大时代	c=1 d=0.995012 t=63
+da shi dong 	大石东	c=1 d=0.937067 t=63
+da si da shang 	打死打伤	c=3 d=2.86341 t=63
+da su da 	大苏打	c=13 d=12.1224 t=63
+da su da da suan 	大苏打打算	c=1 d=0.918512 t=63
+da suan 	打算	c=5 d=4.39928 t=63
+da suan da si da shang 	打算打死打伤	c=1 d=0.900325 t=63
+da suan da su da 	打算大苏打	c=1 d=0.882497 t=63
+da wa nei sa 	打瓦内萨	c=7 d=6.47332 t=63
+de 	的	c=1 d=0.986962 t=63
+de sa da 	的飒沓	c=1 d=0.960789 t=63
+de sa da sa 	的飒沓撒	c=1 d=0.856415 t=63
+dian 	点	c=0 d=0.0918512 t=63
+gao xiao 	搞笑	c=1 d=0.88692 t=63
+ha ha 	哈哈	c=1 d=0.873716 t=63
+jian yue 	简约	c=1 d=0.913931 t=63
+lan 	蓝	c=1 d=0.923116 t=63
+liu guang 	流光	c=1 d=0.918512 t=63
+ne mao 	呢帽	c=0 d=0.0873716 t=63
+sa 	撒	c=1 d=0.941765 t=63
+sa da 	飒沓	c=2 d=1.7601 t=63
+shi da 	师大	c=1 d=0.965605 t=63
+shi da fu 	士大夫	c=1 d=0.980199 t=63
+ta men 	他们	c=0 d=0.0970446 t=63
+tian qi 	天气	c=1 d=0.900325 t=63
+wa nei sa 	瓦内萨	c=0 d=0.0900325 t=63
+wei ni 	为你	c=0 d=0.0891366 t=63
+wo 	我	c=0 d=0.0970446 t=63
+wo ta men 	我他们	c=1 d=0.97531 t=63
+wo ze 	我则	c=0 d=0.0873716 t=63
+wo ze ne mao 	我则呢帽	c=1 d=0.878095 t=63
+wo zen me 	我怎么	c=1 d=0.882497 t=63
+xian zai 	现在	c=0 d=0.0891366 t=63
+xian zai wei ni bo bao 	现在为你播报	c=1 d=0.895834 t=63
